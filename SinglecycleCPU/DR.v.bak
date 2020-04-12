@@ -1,0 +1,39 @@
+  `include "ctrl_encode_def.v"
+
+module   DR (d_in,be,extOp,clk,d_out);
+
+    input   [31:0]   d_in;
+    input   [3:0]    be;
+    input            extOp;
+    input            clk;
+    output  reg [31:0]   d_out;
+
+//    wire    [3:0]    mask;
+    
+ //   assign mask=(extOp==`DR_EXT_SIGNAL)?{d_in[31],d_in[23],d_in[15],d_in[7]}:4'b0;
+    always @(posedge clk)
+	if(extOp == `DR_EXT_SIGNAL)
+    begin
+        case(be)
+            4'b1111:   d_out   <=   d_in;
+            4'b0011:   
+                       d_out   <=   {{16{d_in[15]}},d_in[15:0]};    //half word signed-extension low_16 
+                       
+            4'b1100:  
+                       d_out   <=   {{16{d_in[31]}},d_in[31:16]};   //half word signed-extension  high_16
+                       
+            4'b0001:   
+                       d_out   <=   {{24{d_in[7]}},d_in[7:0]};  //byte 1
+                       
+            4'b0010:  
+                       d_out   <=   {{24{d_in[15]}},d_in[15:8]}; //byte 2
+                       
+            4'b0100:   
+                       d_out   <=   {{24{d_in[23]}},d_in[23:16]};  //byte 3
+                       
+            4'b1000:   
+                       d_out   <=   {{24{d_in[31]}},d_in[31:24]}; //byte 4
+                       
+        endcase
+   end
+endmodule

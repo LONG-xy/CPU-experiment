@@ -1,0 +1,147 @@
+C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/branch_jump_ctrl.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/branch_jump_ctrl.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module branch_jump_ctrl
+
+Top level modules:
+	branch_jump_ctrl
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mips_tb.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mips_tb.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mips_tb
+
+Top level modules:
+	mips_tb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/instr_def.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/instr_def.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/hazard_detection.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/hazard_detection.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module hazard_detection
+
+Top level modules:
+	hazard_detection
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/RF.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/RF.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module rf
+
+Top level modules:
+	rf
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ext.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ext.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ext
+
+Top level modules:
+	ext
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ID_EX.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ID_EX.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module id_ex
+
+Top level modules:
+	id_ex
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ALU.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ALU.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module alu
+
+Top level modules:
+	alu
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mux.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mux.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mux_4
+
+Top level modules:
+	mux_4
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/dmr_ext.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/dmr_ext.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module dmr_ext
+
+Top level modules:
+	dmr_ext
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ctrl_def.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ctrl_def.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/IF_ID.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/IF_ID.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module if_id
+
+Top level modules:
+	if_id
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/forwarding.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/forwarding.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module forwarding
+
+Top level modules:
+	forwarding
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/Branch_Equal.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/Branch_Equal.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module branch_equal
+
+Top level modules:
+	branch_equal
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ctrl.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ctrl.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ctrl
+
+Top level modules:
+	ctrl
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/IM.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/IM.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module im
+
+Top level modules:
+	im
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/MEM_WB.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/MEM_WB.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mem_wb
+
+Top level modules:
+	mem_wb
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/be_ext.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/be_ext.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module be_ext
+
+Top level modules:
+	be_ext
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/DM.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/DM.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module dm
+
+Top level modules:
+	dm
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mips.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mips.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/PC.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/PC.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module pc
+
+Top level modules:
+	pc
+
+} {} {}} C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/EX_MEM.v {1 {vlog -work work -stats=none C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/EX_MEM.v
+Model Technology ModelSim PE Student Edition vlog 10.4a Compiler 2015.03 Apr  7 2015
+-- Compiling module ex_mem
+
+Top level modules:
+	ex_mem
+
+} {} {}}

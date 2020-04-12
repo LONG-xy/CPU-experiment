@@ -1,0 +1,430 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+valu
+Z0 !s110 1586607022
+!i10b 1
+!s100 gAad>Mh`ZWODV^nmKWFHL3
+In96_b@?4XLn=Kj^nE>IfA0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU
+w1586517582
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ALU.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ALU.v
+L0 3
+Z3 OP;L;10.4a;61
+r1
+!s85 0
+31
+Z4 !s108 1586607022.000000
+!s107 ./ctrl_def.v|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ALU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ALU.v|
+!s101 -O0
+!i113 1
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact -O0
+vbe_ext
+R0
+!i10b 1
+!s100 [9_96MHK8@hQVFPeWio9i1
+IV<cXR[]hbfMX372D0a3002
+R1
+R2
+Z6 w1523690802
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/be_ext.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/be_ext.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 ./instr_def.v|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/be_ext.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/be_ext.v|
+!s101 -O0
+!i113 1
+R5
+vbranch_equal
+!s110 1586607025
+!i10b 1
+!s100 lQm_PMW826T@^ckMMmZ]10
+I@cLi;0NmIEDFTcjEAm]l91
+R1
+R2
+w1586582201
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/Branch_Equal.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/Branch_Equal.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1586607025.000000
+!s107 C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/Branch_Equal.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/Branch_Equal.v|
+!s101 -O0
+!i113 1
+R5
+vbranch_jump_ctrl
+R0
+!i10b 1
+!s100 N04Gc^?2]F8Z>ASI2VIfQ1
+IQ8F<5akbk>Lh[zE=MND6S2
+R1
+R2
+w1586599857
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/branch_jump_ctrl.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/branch_jump_ctrl.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 ./instr_def.v|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/branch_jump_ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/branch_jump_ctrl.v|
+!s101 -O0
+!i113 1
+R5
+vctrl
+R0
+!i10b 1
+!s100 CoQ<3LcPJ]a`:01Ugf^kW0
+IPikJ6K0OMFO:4`VTJoFcF1
+R1
+R2
+w1586607004
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ctrl.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ctrl.v
+L0 4
+R3
+r1
+!s85 0
+31
+R4
+!s107 ./instr_def.v|./ctrl_def.v|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ctrl.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ctrl.v|
+!s101 -O0
+!i113 1
+R5
+vdm
+R0
+!i10b 1
+!s100 LE7^VE8i2MDi>;2_^o@cC2
+IFgJ`9Wm^5Zcjf=VXYzQ]`0
+R1
+R2
+w1585479720
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/DM.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/DM.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/DM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/DM.v|
+!s101 -O0
+!i113 1
+R5
+vdmr_ext
+Z7 !s110 1586607023
+!i10b 1
+!s100 ATfg@n0OP?0fK5f5VHC@B0
+IE03bOYUG1Ji5C_@I[24QJ2
+R1
+R2
+R6
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/dmr_ext.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/dmr_ext.v
+L0 4
+R3
+r1
+!s85 0
+31
+Z8 !s108 1586607023.000000
+!s107 ./instr_def.v|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/dmr_ext.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/dmr_ext.v|
+!s101 -O0
+!i113 1
+R5
+vex_mem
+R7
+!i10b 1
+!s100 ><2M>[FoKlATACWOGnQT_3
+IgKCJ]cR=XQ^d]FTcJ:77@1
+R1
+R2
+w1586574343
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/EX_MEM.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/EX_MEM.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/EX_MEM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/EX_MEM.v|
+!s101 -O0
+!i113 1
+R5
+vext
+R7
+!i10b 1
+!s100 n44:V5AUg0@bOim@E`6LD0
+I:81dHlK^fLKA6nN5Z:J=W1
+R1
+R2
+R6
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ext.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ext.v
+L0 3
+R3
+r1
+!s85 0
+31
+R8
+!s107 ./ctrl_def.v|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ext.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ext.v|
+!s101 -O0
+!i113 1
+R5
+vforwarding
+R7
+!i10b 1
+!s100 C[S63H1IedXD1CGKX;Gkm3
+IYDO2gI1Xf?i@>_XIDOTg22
+R1
+R2
+w1586584170
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/forwarding.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/forwarding.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/forwarding.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/forwarding.v|
+!s101 -O0
+!i113 1
+R5
+vhazard_detection
+R7
+!i10b 1
+!s100 ?eMYle3]LB3glVbjlckR41
+IoGPn9=2NXTO@@@^k>c?m[0
+R1
+R2
+w1586518930
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/hazard_detection.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/hazard_detection.v
+L0 3
+R3
+r1
+!s85 0
+31
+R8
+!s107 ./instr_def.v|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/hazard_detection.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/hazard_detection.v|
+!s101 -O0
+!i113 1
+R5
+vid_ex
+R7
+!i10b 1
+!s100 Yc]5`W6z80N5ERSM?nC`^0
+IYN^;hlX?jKbNmfl=T]ST40
+R1
+R2
+R6
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ID_EX.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ID_EX.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ID_EX.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/ID_EX.v|
+!s101 -O0
+!i113 1
+R5
+vif_id
+R7
+!i10b 1
+!s100 A_<==3gKLeRkdiNVj;3f_3
+IJL5ZK^E9eC;gk6A_ImPQh1
+R1
+R2
+w1585411851
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/IF_ID.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/IF_ID.v
+L0 1
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/IF_ID.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/IF_ID.v|
+!s101 -O0
+!i113 1
+R5
+vim
+Z9 !s110 1586607024
+!i10b 1
+!s100 Z]Zc`;aFKc`?4ek>oBGRE2
+I978eVRMh78oHbi4DL]h@f1
+R1
+R2
+w1585392987
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/IM.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/IM.v
+L0 1
+R3
+r1
+!s85 0
+31
+Z10 !s108 1586607024.000000
+!s107 C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/IM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/IM.v|
+!s101 -O0
+!i113 1
+R5
+vmem_wb
+R9
+!i10b 1
+!s100 L1mVcCCeh4YazIWl89<YW0
+I159eeE8`ZY_20T=nH?M3a3
+R1
+R2
+R6
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/MEM_WB.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/MEM_WB.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/MEM_WB.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/MEM_WB.v|
+!s101 -O0
+!i113 1
+R5
+vmips
+R9
+!i10b 1
+!s100 @jN4TGEAj9A560<WR2UDl2
+IVKj^^Tb;7a=?zc4=<Ezhj3
+R1
+R2
+w1586584637
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mips.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mips.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mips.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mips.v|
+!s101 -O0
+!i113 1
+R5
+vmips_tb
+R9
+!i10b 1
+!s100 LYmzGn:GWlKjSaPW41hIg1
+I4ie^J4oi47gaXaf:LnX>V0
+R1
+R2
+w1586438523
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mips_tb.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mips_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mips_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mips_tb.v|
+!s101 -O0
+!i113 1
+R5
+vmux_4
+R9
+!i10b 1
+!s100 ;C8AiCn`U21mElC?@TWgD1
+I<4fD7SBL@<T4PfFhLi:JZ2
+R1
+R2
+w1585462111
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mux.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mux.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mux.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/mux.v|
+!s101 -O0
+!i113 1
+R5
+vpc
+R9
+!i10b 1
+!s100 5H?OUFD>C8i9_McEBdC;_1
+IzaYgL^X_;TWBA]^`_O6U53
+R1
+R2
+w1585470039
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/PC.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/PC.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/PC.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/PC.v|
+!s101 -O0
+!i113 1
+R5
+vrf
+R9
+!i10b 1
+!s100 <6RLL2Qi@iN@X>4595Dh;3
+I]?1?JH762RLV;Ib?9iHbG0
+R1
+R2
+w1586601041
+8C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/RF.v
+FC:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/RF.v
+L0 1
+R3
+r1
+!s85 0
+31
+R10
+!s107 C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/RF.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Modeltech_pe_edu_10.4a/examples/PipelineCPU/RF.v|
+!s101 -O0
+!i113 1
+R5
